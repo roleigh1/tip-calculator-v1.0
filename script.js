@@ -59,23 +59,23 @@ for(let i = 0; i < allBtns.length; i++){
 
 // the function to calculate on % Btn click 
 function calc5(){
-         document.querySelector('#amount').innerHTML = `$${amount5}`;
+         document.querySelector('#amount').innerHTML = `$${Math.floor(amount5)}`;
          document.querySelector('#total').innerHTML = `$${Math.floor(result5)}`
 }
 function calc10(){
-         document.querySelector('#amount').innerHTML = `$${amount10}`;
+         document.querySelector('#amount').innerHTML = `$${Math.floor(amount10)}`;
          document.querySelector('#total').innerHTML = `$${Math.floor(result10)}`;
 }
          function calc15(){
-         document.querySelector('#amount').innerHTML = `$${amount15}`;
+         document.querySelector('#amount').innerHTML = `$${Math.floor(amount15)}`;
          document.querySelector('#total').innerHTML = `$${Math.floor(result15)}`
 }   
 function calc25(){
-         document.querySelector('#amount').innerHTML = `$${amount25}`;
+         document.querySelector('#amount').innerHTML = `$${Math.floor(amount25)}`;
          document.querySelector('#total').innerHTML = `$${Math.floor(result25)}`   
 }
 function calc50(){
-         document.querySelector('#amount').innerHTML = `$${amount50}`;	
+         document.querySelector('#amount').innerHTML = `$${Math.floor(amount50)}`;	
          document.querySelector('#total').innerHTML = `$${Math.floor(result50)}`;
 }
 //  function to calculate with the customBTN 
@@ -89,7 +89,7 @@ function enter(element,e){
             charCode = e.keyCode;
         }
         if(charCode == 13) {
-            document.querySelector('#amount').innerHTML = `$${amountCus}`;
+            document.querySelector('#amount').innerHTML = `$${Math.floor(amountCus)}`;
             document.querySelector('#total').innerHTML = `$${Math.floor(resultCus)}`;
         }
 
@@ -102,3 +102,4 @@ function reset(){
     
       
 }
+
