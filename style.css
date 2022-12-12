@@ -44,8 +44,8 @@ input[type=text]:focus{
 }
 #dollar{
     position: relative;
-    right: 19.8rem;
-    top: 4px;
+    bottom: 2rem;
+    left: 0.5rem;
 }
 h2{
     font-size: 1rem;
@@ -96,7 +96,7 @@ h2{
 }
 h3{
     position: relative;
-    bottom: 13rem;
+    bottom: 14.5rem;
     left: 3rem;
     opacity: 0.5;
     font-family: 'Space Mono', monospace;
@@ -110,12 +110,12 @@ h3{
     text-align: right;
     font-family: 'Space Mono', monospace;
     position: relative;
-    bottom: 13.5rem;
+    bottom: 15rem;
     left: 3rem;
 }
 #people{
     position: relative;
-    bottom: 13.2rem;
+    bottom: 14.5rem;
     right: 16.7rem;
 }
 .side{
@@ -125,7 +125,7 @@ h3{
     grid-row:2/3;
     grid-column: 2/2;
     position: relative;
-    bottom: 6rem;
+    bottom: 7.5rem;
     border-radius: 50px;
 }
 h4{
@@ -143,7 +143,7 @@ p{
     cursor:default;
 }
 #amount{
-    margin-left:13.5rem;
+    margin-left:11rem;
     position: relative;
     bottom: 5rem;
     font-size: 3em;
@@ -153,7 +153,7 @@ p{
 }
 
 #total{
-    margin-left:13.5rem;
+    margin-left:11rem;
     position: relative;
     bottom: 5rem;
     font-size: 3em;
@@ -222,8 +222,8 @@ p{
         width: 18rem;
     }
    #people{
-     right: 13.3rem;
-     
+
+          
    }
    .side{
     top:19rem;
@@ -239,7 +239,7 @@ p{
     top:11rem;
    }
    span{
-    right: 5rem;
+    right: 2rem;
    }
    h4{
     position: relative;
